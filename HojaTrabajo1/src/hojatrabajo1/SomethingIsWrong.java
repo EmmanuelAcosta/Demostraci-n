@@ -22,7 +22,7 @@ public class SomethingIsWrong {
         Rectangle myRect = null;
         SomethingIsWrong some = new SomethingIsWrong();
         myRect.width = 40;
-        myRect.height = 50834535355345345345345345345345;
+        myRect.height = 45345345;
         System.out.println("myRect's area is " + some.area(myRect.width, myRect.height));
     }
 }

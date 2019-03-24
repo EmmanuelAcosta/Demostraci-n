@@ -16,7 +16,8 @@ public class HojaTrabajo1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Mazo mazo = new Mazo();
+        mazo.mazo();
     }
     public String getNombre(){
         return nombre;
@@ -26,6 +27,7 @@ public class HojaTrabajo1 {
     }
     public String imprimirValor(){
         System.out.println(getValor());
+        return "" + getValor();
     }
     
 }

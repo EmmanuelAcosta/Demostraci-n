@@ -24,5 +24,8 @@ public class HojaTrabajo1 {
     public int getValor(){
         return valor;
     }
+    public String imprimirValor(){
+        System.out.println(getValor());
+    }
     
 }

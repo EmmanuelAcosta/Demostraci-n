@@ -30,6 +30,8 @@ public class UT1 {
         //MultSuma.multSuma(1.0, 2.0, 3.0);
         ContadorDePalabras nuevo = new ContadorDePalabras();
         nuevo.contadorPalabras("  a l k s j     d     a  Hola    como estas    ");
+        MazoEnum mazo = new MazoEnum();
+        mazo.lista();
         
     }
     

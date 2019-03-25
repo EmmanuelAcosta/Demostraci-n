@@ -23,7 +23,7 @@ public class StringDemo {
                 palindrome.charAt(i);
         } 
         
-        // reverse array of chars
+        // reverse array of chars bueno
         for (int j = 0; j < len; j++) {
             charArray[j] =
                 tempCharArray[len - 1 - j];
